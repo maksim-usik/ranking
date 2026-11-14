@@ -1,0 +1,56 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Segoe UI", Arial, sans-serif;
+	color: rgb(31, 41, 55);
+	min-height: 100vh;
+	/* TODO: dodaj gradient liniowy jako tło strony */
+}
+
+header {
+	padding: 24px 32px;
+	color: rgb(254, 65, 62);
+	/* TODO: dodaj półprzezroczyste tło i cień tekstu dla nagłówka */
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+	gap: 16px;
+	margin-top: 12px;
+}
+
+nav a {
+	color: rgb(228, 88, 88);
+	text-decoration: none;
+}
+
+#intro {
+	padding: 32px;
+	color: rgb(220, 88, 88);
+	text-align: center;
+}
+
+.phone-card{
+	background-color: blueviolet;
+	border-radius: 16px;
+	padding: 20px;
+	width: 280px;
+	text-align: center;
+}
+.phone-card img{
+	width: 100%;
+	border-color: blueviolet;
+	margin-bottom: ;
+}
+
+footer {
+	padding: 24px;
+	text-align: center;
+	color: white;
+	margin-bottom: 12px;
+}
